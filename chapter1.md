@@ -1,3 +1,8 @@
-# First Chapter
+# 作用域和RHS、LHS  
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+RHS：目的是获取变量的值，对于不存在变量会抛出ReferenceError异常；对于变量的不合理操作如引用不存在的属性会抛出TypeError
+
+LHS：目的是对变量进行赋值，对于严格模式中，查找变量失败会抛出ReferenceError异常
+
+
+
